@@ -1,0 +1,27 @@
+
+# Memory Data
+
+## Structure
+
+`MemoryData`
+
+## Fields
+
+| Name | Type | Tags | Description |
+|  --- | --- | --- | --- |
+| `Usage` | `double?` | Optional | The number in bytes of memory being used by the instance at the time of the snapshot. |
+| `MaxUsage` | `double?` | Optional | The highest amoun tof memory usage since the last restart. |
+| `FailCount` | `double?` | Optional | The number of times the memory liimit was exceeded for the instance. |
+| `Limit` | `double?` | Optional | The maximum number of bytes of memory this instance has acess to. |
+
+## Example (as JSON)
+
+```json
+{
+  "usage": 129.34,
+  "max_usage": 195.62,
+  "fail_count": 182.76,
+  "limit": 121.08
+}
+```
+

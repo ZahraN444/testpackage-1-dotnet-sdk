@@ -1,0 +1,27 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyclePlatformAPI.Standard", "CyclePlatformAPI.Standard/CyclePlatformAPI.Standard.csproj", "{422961cf-51d1-41b4-82f5-25dd1b223308}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CyclePlatformAPI.Tests", "CyclePlatformAPI.Tests/CyclePlatformAPI.Tests.csproj", "{6852d3ec-6e91-4d11-8f66-cf672302e476}"
+EndProject
+Global
+    GlobalSection(SolutionConfigurationPlatforms) = preSolution
+        Debug|Any CPU = Debug|Any CPU
+        Release|Any CPU = Release|Any CPU
+    EndGlobalSection
+    GlobalSection(ProjectConfigurationPlatforms) = postSolution
+        {422961cf-51d1-41b4-82f5-25dd1b223308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {422961cf-51d1-41b4-82f5-25dd1b223308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {422961cf-51d1-41b4-82f5-25dd1b223308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {422961cf-51d1-41b4-82f5-25dd1b223308}.Release|Any CPU.Build.0 = Release|Any CPU
+        {6852d3ec-6e91-4d11-8f66-cf672302e476}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+        {6852d3ec-6e91-4d11-8f66-cf672302e476}.Debug|Any CPU.Build.0 = Debug|Any CPU
+        {6852d3ec-6e91-4d11-8f66-cf672302e476}.Release|Any CPU.ActiveCfg = Release|Any CPU
+        {6852d3ec-6e91-4d11-8f66-cf672302e476}.Release|Any CPU.Build.0 = Release|Any CPU
+    EndGlobalSection
+    GlobalSection(SolutionProperties) = preSolution
+        HideSolutionNode = FALSE
+    EndGlobalSection
+EndGlobal
